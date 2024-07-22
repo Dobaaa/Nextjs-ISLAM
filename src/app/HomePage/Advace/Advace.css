@@ -1,0 +1,32 @@
+.Advace-box {
+  position: relative;
+}
+.Advace-box::after {
+  content: "01";
+  position: absolute;
+  background-color: var(--main);
+  color: var(--white);
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 50%;
+  top: 30%;
+  left: -20px;
+}
+.Advace-box:nth-child(3)::after {
+  content: "02";
+}
+.Advace-box:nth-child(4)::after {
+  content: "03";
+}
+.Advace-head {
+  position: relative;
+  font-size: 20px;
+}
+.Advace-head::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  left: -10px;
+  background-color: var(--main);
+}
