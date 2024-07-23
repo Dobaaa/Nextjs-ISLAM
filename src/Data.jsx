@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import Card1 from "./assets/cate1.png";
 import Card2 from "./assets/cate2.png";
 import Card3 from "./assets/cate3.png";

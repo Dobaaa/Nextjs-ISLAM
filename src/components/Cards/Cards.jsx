@@ -10,7 +10,6 @@ import Image from "next/image";
 const Cards = () => {
   const [currentPage, setCurrentPage] = useState(0);
   const [itemsPerPage, SetItemsPerPagge] = useState(4);
-
   useEffect(() => {
     function updateItemsPerPage() {
       if (window.matchMedia("(max-width: 600px)").matches) {

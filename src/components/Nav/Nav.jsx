@@ -4,46 +4,62 @@ import "./Nav.css";
 import Logo from "../../assets/logo.png";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCartShopping,
+  faMagnifyingGlass,
+  faChevronDown,
+} from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const Nav = () => {
+  const t = useTranslations("HomePage");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  const handleLanguageChange = (language) => {
+    const endpoint = language === "ar" ? "/ar" : "/en";
+    window.location.href = `http://localhost:3000${endpoint}`;
+  };
+
   return (
-    <nav className="bg-transpernt text-black p-4 me-3 ms-3 ps-8 pe-8">
+    <nav className="bg-transparent text-black p-4 me-3 ms-3 ps-8 pe-8">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="text-lg font-bold">
-          <Image src={Logo} />
+          <Image src={Logo} alt="Logo" />
         </div>
 
         {/* Links for large screens */}
         <div className="hidden md:flex space-x-6">
           <a href="#" className="hover:text-[var(--main)]">
-            Home
-          </a>
-
-          <a href="#" className="hover:text-[var(--main)]">
-            Home
+            {t("homeNav")}
           </a>
           <a href="#" className="hover:text-[var(--main)]">
-            Home
+            {t("aboutUsNav")}
           </a>
           <a href="#" className="hover:text-[var(--main)]">
-            assasa
+            {t("courseNav")}
+          </a>
+          <a href="#" className="hover:text-[var(--main)]">
+            {t("shopNav")}
           </a>
           <div className="relative group">
-            <button className="hover:text-[var(--main)]">
+            <button
+              onClick={() => handleLanguageChange("en")}
+              className="hover:text-[var(--main)]"
+            >
               English <FontAwesomeIcon icon={faChevronDown} />
             </button>
             <div className="absolute hidden group-hover:block bg-gray-800 text-white py-2 mt-1 rounded shadow-lg">
-              <a href="#" className="block px-4 py-2 hover:bg-gray-700">
+              <a
+                href="#"
+                className="block px-4 py-2 hover:bg-gray-700"
+                onClick={() => handleLanguageChange("ar")}
+              >
                 Arabic
               </a>
             </div>
@@ -61,7 +77,7 @@ const Nav = () => {
             className="text-[var(--main)]"
           />
           <Link href="/" className="text-[var(--main)] login-btn">
-            Login
+            {t("login")}
           </Link>
         </div>
 
@@ -80,7 +96,7 @@ const Nav = () => {
                 strokeLinejoin="round"
                 strokeWidth="2"
                 d="M4 6h16M4 12h16m-7 6h7"
-              ></path>
+              />
             </svg>
           </button>
         </div>
@@ -90,23 +106,27 @@ const Nav = () => {
       {isMenuOpen && (
         <div className="md:hidden">
           <a href="#" className="block px-4 py-2 hover:bg-gray-700">
-            sasas
+            {t("homeNav")}
           </a>
           <div className="relative group">
-            <button className="block px-4 py-2 hover:bg-gray-700">
+            <button
+              className="block px-4 py-2 hover:bg-gray-700"
+              onClick={() => handleLanguageChange("ar")}
+            >
+              Arabic
+            </button>
+            <button
+              className="block px-4 py-2 hover:bg-gray-700"
+              onClick={() => handleLanguageChange("en")}
+            >
               English
             </button>
-            <div className="bg-gray-800 text-white py-2 rounded shadow-lg">
-              <a href="#" className="block px-4 py-2 hover:bg-gray-700">
-                Arabica
-              </a>
-            </div>
           </div>
           <a href="#" className="block px-4 py-2 hover:bg-gray-700">
-            Home
+            {t("aboutUsNav")}
           </a>
           <a href="#" className="block px-4 py-2 hover:bg-gray-700">
-            Home
+            {t("courseNav")}
           </a>
           <a href="#" className="block px-4 py-2 hover:bg-gray-700">
             Login

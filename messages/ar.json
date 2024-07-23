@@ -1,0 +1,75 @@
+{
+  "HomePage": {
+    "lang": "ِArabic",
+    "landingHead": "تعلم دينك  ",
+    "landingHeadBreak": " لحمايةالدنيا و الآخرة",
+    "landingDisc": "التعلم من العلماء الذين يروجون لمناهج النبي عليه الصلاه وأفضل السلام وأصحابه الكرام",
+    "searchPlaceholder": "ابحث في موضوعاتك المفضلة ",
+    "homeNav": "الصفحة الرئيسية",
+    "aboutUsNav": "مقالات",
+    "courseNav": "دورات",
+    "shopNav": "تسوق",
+    "login": "تسجيل دخول",
+
+    "CateHead": "اختر الموضوع الذي تريده للتعلم من الفئة العليا",
+    "all": "اظهار الكل",
+    "Cate1": "توحيد",
+    "Cate2": "قرآن",
+    "Cate3": "حديث",
+    "Cate4": "فقه",
+    "Cate5": "سيرة",
+    "Cate6": "عقيدة",
+    "Cate7": "تجويد",
+
+    "CardHead": "احصل على العقيدة الصحيحة ",
+    "Category": "التوحيد",
+    "CardInfoName": "كتاب التوحيد للشيخ عثيمين",
+    "CardInfoTime": "3 أشهر",
+    "CardInfoDesc": "لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك ",
+    "CardInfoTeacher": "الشيخ المدخلي",
+    "CardInfoPrice": "$مجاني",
+
+    "AdvaceHead": "ما الذي سيساعدك على معرفة سبب خلقك الله تعالى",
+    "AdvaceCardHead": "انطلق بالسرعة التي تناسبك",
+    "AdvaceCardDesc": "لكن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكارالنشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف ",
+    "privacy": " Privacy Policy",
+
+    "sets": "Sets",
+    "whiteboards": "Whiteboards",
+    "kindergarten": "Kindergarten",
+    "tables": "Tables",
+    "furniture": "Furniture",
+
+    "oneComment": "Thank you from the bottom of my heart for the elegant dealings, the quick response, and the quality of the goods. May God bless you with what He has provided for you",
+    "oneCommentLess": "Thank you from the bottom of my heart for the elegant dealings, the quick response, and the quality of the goods",
+
+    "towComment": "Good dealing and financial security for the customer is what distinguishes the goods exactly as you see them and better... We say thank you to Ibrahim Al Zamil Trading Establishment",
+    "towCommentLess": "Good dealing and financial security for the customer is what distinguishes the goods exactly as you see them and better...",
+
+    "threeComment": "Excellent in dealing and quick delivery",
+
+    "fourComment": "May God bless you and provide you with His abundant grace. I took a school desk from you and thank you for your credibility and honesty in dealing and adhering to the deadline. I recommend dealing with him.",
+    "fourCommentLess": "May God bless you and provide you with His abundant grace. I took a school desk from you and thank you",
+
+    "fiveComment": "Credibility in dealing, because I dealt with them several times, and the product arrives as it is, and their price is good. We are thankful for their good treatment.",
+    "fiveCommentLess": "Credibility in dealing, because I dealt with them several times,",
+
+    "sixComment": "I purchased three student tables and chairs and the items were shipped",
+
+    "sevenComment": "Excellent price, reliability with everything, exact timings, I highly recommend, excellent quality",
+
+    "eightComment": "Frankly speaking, thank you very much. It is a small number of the finest goods, competitive prices, punctuality, and credibility in dealing. I received the chairs and tables on the specified time. I bought them used, and if he had told me they were new, I would have believed them. My sincere prayers are for them.",
+    "eightCommentLess": "Frankly speaking, thank you very much. It is a small number of the finest goods, competitive prices,",
+
+    "nineComment": "I thank the brothers for their good goods and for the speed of response, delivery and honesty. This indicates the success of their company and its keenness to serve the customer.",
+    "nineCommentLess": "I thank the brothers for their good goods and for the speed of response",
+
+    "tenComment": "Right price and on time delivery",
+
+    "elevenComment": "Wonderful dealings with the utmost credibility. May God increase people like him. His dealings are most valuable. May God make him happy and grant him success in this world and the hereafter.",
+    "elevenCommentLess": "Wonderful dealings with the utmost credibility. May God increase people like him.",
+
+    "tweleveComment": "I ordered school desks from them and they arrived exactly at the time he mentioned. They arrived just as he described them, and God is as if they were new. God willing. May God reward them with all the best and may He bless us and them with His grace. God is a witness to what I say.",
+    "tweleveCommentLess": "I ordered school desks from them and they arrived exactly at the time he mentioned. "
+  }
+}

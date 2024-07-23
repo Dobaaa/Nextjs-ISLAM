@@ -2,7 +2,7 @@
 import React, { createContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./Info.css";
-import MainImg from "../../../assets/Group 11355.png";
+import MainImg from "../../../../assets/Group 11355.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
