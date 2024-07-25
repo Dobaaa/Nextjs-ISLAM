@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import "./Nav.css";
-import Logo from "../../assets/logo.png";
+import Logo from "./../../../public/assets/logo.png";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

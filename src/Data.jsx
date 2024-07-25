@@ -1,8 +1,8 @@
 import { useTranslations } from "next-intl";
-import Card1 from "./assets/cate1.png";
-import Card2 from "./assets/cate2.png";
-import Card3 from "./assets/cate3.png";
-import Card4 from "./assets/cate4.png";
+import Card1 from "../public/assets/cate1.png";
+import Card2 from "../public/assets/cate2.png";
+import Card3 from "../public/assets/cate3.png";
+import Card4 from "../public/assets/cate4.png";
 
 export const Data = [
   {

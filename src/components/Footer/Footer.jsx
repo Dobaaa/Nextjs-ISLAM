@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import FotterLogo from "../../assets/footerlogo.png";
-import FotterGoogle from "../../assets/google.png";
-import FotterApple from "../../assets/apple.png";
+import FotterLogo from "../../../public/assets/footerlogo.png";
+import FotterGoogle from "../../../public/assets/google.png";
+import FotterApple from "../../../public/assets/apple.png";
 import {
   faFacebookF,
   faInstagram,

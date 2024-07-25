@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import LandingImg from "../../../../assets/landing.png";
-import LandingDesignImg from "../../../../assets/designs.png";
+import LandingImg from "../../../../../public/assets/landing.png";
+import LandingDesignImg from "../../../../../public/assets/designs.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import "./Landing.css";
-import CateImg from "../../../../assets/cate.png";
+import CateImg from "../../../../../public/assets/cate.png";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 const Landing = () => {

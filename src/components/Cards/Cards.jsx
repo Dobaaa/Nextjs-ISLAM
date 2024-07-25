@@ -4,7 +4,7 @@ import { Data } from "../../Data";
 import "./Cards.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookOpen, faClock } from "@fortawesome/free-solid-svg-icons";
-import CardIcon from "../../assets/CardIcon.png";
+import CardIcon from "../../../public/assets/CardIcon.png";
 import ReactPaginate from "react-paginate";
 import Image from "next/image";
 const Cards = () => {
